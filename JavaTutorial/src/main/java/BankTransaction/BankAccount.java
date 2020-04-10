@@ -3,7 +3,7 @@ package BankTransaction;
 
 public class BankAccount {
 	
-	private static int balance=1000;
+	private static int balance=1200;
 	
 	public int getBalance() {
 		
