@@ -9,7 +9,8 @@ package atmTransaction;
 
 import java.util.Scanner;
 
-public class atmTransaction {
+public class AtmTransaction {
+	 static Scanner sc = new Scanner(System.in);
 
 	private static double Balance = 1000;
 	static int transactionAmt;
@@ -26,7 +27,7 @@ public class atmTransaction {
 
 		// TODO Auto-generated method stub
 		System.out.println("Do you want to perform another transaction (Y/N)");
-		Scanner sc = new Scanner(System.in);
+		 sc = new Scanner(System.in);
 		String userAction = sc.next();
 		while (!userAction.equalsIgnoreCase("N")) 
 		{
@@ -44,7 +45,7 @@ public class atmTransaction {
 	private static void Transaction() {
 		// TODO Auto-generated method stub
 		System.out.println("Do you want to perform a transaction (W/D)");
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		String userAction = sc.next();
 		if(userAction.equalsIgnoreCase("W")) 
 		{
