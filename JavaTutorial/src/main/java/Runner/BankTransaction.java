@@ -19,7 +19,6 @@ public class BankTransaction {
 
 		anotherTransaction();
 
-
 	}
 
 	private static void anotherTransaction() {
