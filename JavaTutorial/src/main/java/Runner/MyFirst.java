@@ -16,7 +16,7 @@ public class MyFirst {
 			}
 		}
 		
-		//System.out.println("Theres are "+args.length+" elements in args");
+		System.out.println("Theres are "+args.length+" elements in args");
 		
 		sayHello("DIllip");
 
